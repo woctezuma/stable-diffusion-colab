@@ -14,6 +14,13 @@ To remove the safety check, switch `remove_safety` to `True`:
 remove_safety = True
 ```
 
+## Schedulers
+
+A scheduler can be chosen among:
+- PNDM, which is the default scheduler in [🤗's D🧨iffusers][huggingface-blogpost] for Stable Diffusion,
+- DDIM,
+- K-LMS.
+
 ## Parameters
 
 Typically, parameters are set with the following ranges in mind:
@@ -48,6 +55,7 @@ Different results obtained with the text prompt: "a photo of an astronaut riding
 
 [stable-diffusion-paper]: <https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html>
 
+[huggingface-blogpost]: <https://huggingface.co/blog/stable_diffusion>
 [huggingface-models]: <https://huggingface.co/CompVis/stable-diffusion>
 [huggingface-latest-weights]: <https://huggingface.co/CompVis/stable-diffusion-v1-4>
 [huggingface-demo]: <https://huggingface.co/spaces/stabilityai/stable-diffusion>
