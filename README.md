@@ -7,10 +7,19 @@ The goal of this repository is to provide a Colab notebook to run the text-to-im
 -   Run [`stable_diffusion.ipynb`][colab-notebook-stable-diffusion].
 [![Open In Colab][colab-badge]][colab-notebook-stable-diffusion]
 
+## Safety Check
+
 To remove the safety check, switch `remove_safety` to `True`:
 ```python
 remove_safety = True
 ```
+
+## Parameters
+
+Typically, parameters are set with the following ranges in mind:
+- `num_images` (default: `1`), between `1` and `4`,
+- `guidance_scale` (default: `7.5`), between `0` and `20`,
+- `num_inference_steps` (default: `50`), between `10` and `150`.
 
 # Misuse and Malicious Use 
 
