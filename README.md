@@ -28,6 +28,14 @@ Typically, parameters are set with the following ranges in mind:
 - `guidance_scale` (default: `7.5`), between `0` and `20`,
 - `num_inference_steps` (default: `50`), between `10` and `150`.
 
+# Results
+
+<img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_3.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_1.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_2.jpg" width="256">
+
+<sub>
+Different results obtained with the text prompt: "a photo of an astronaut riding a horse on mars".
+</sub>
+
 # Misuse and Malicious Use 
 
 To be able to run the notebook, a "HuggingFace🤗 Hub token" is mandatory.
@@ -39,14 +47,6 @@ In order to obtain such token, you need to accept a "CreativeML OpenRAIL-M licen
 Moreover, as for the DALL·E model, you are asked to abide to the following statement:
 > Do not create or disseminate images that create hostile or alienating environments for people.
 > This includes images that people would find disturbing, distressing, or offensive; or content that propagates stereotypes.
-
-# Results
-
-<img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_3.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_1.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_2.jpg" width="256">
-
-<sub>
-Different results obtained with the text prompt: "a photo of an astronaut riding a horse on mars".
-</sub>
 
 # References
 
