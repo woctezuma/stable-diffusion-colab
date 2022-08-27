@@ -19,7 +19,7 @@ remove_safety = True
 A scheduler can be chosen among:
 - PNDM, which is the default scheduler in [🤗's D🧨iffusers][huggingface-blogpost] for Stable Diffusion,
 - DDIM,
-- K-LMS.
+- K-LMS, which is the scheduler suggested by [DreamStudio][dreamstudio-demo].
 
 ## Parameters
 
@@ -59,6 +59,7 @@ Different results obtained with the text prompt: "a photo of an astronaut riding
 [huggingface-models]: <https://huggingface.co/CompVis/stable-diffusion>
 [huggingface-latest-weights]: <https://huggingface.co/CompVis/stable-diffusion-v1-4>
 [huggingface-demo]: <https://huggingface.co/spaces/stabilityai/stable-diffusion>
+[dreamstudio-demo]: <http://beta.dreamstudio.ai>
 
 [colab-notebook-stable-diffusion]: <https://colab.research.google.com/github/woctezuma/stable-diffusion-colab/blob/main/stable_diffusion.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
