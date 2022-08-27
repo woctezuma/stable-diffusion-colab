@@ -16,7 +16,7 @@ remove_safety = True
 
 ## Schedulers
 
-A scheduler can be chosen among:
+A scheduler [2] can be chosen among:
 - PNDM, which is the default scheduler in [🤗's D🧨iffusers][huggingface-blogpost] for Stable Diffusion,
 - DDIM,
 - K-LMS, which is the scheduler suggested by [DreamStudio][dreamstudio-demo].
@@ -53,7 +53,10 @@ Moreover, as for the DALL·E model, you are asked to abide to the following stat
 [1] Rombach, Robin, et al. [*High-resolution image synthesis with latent diffusion models*][stable-diffusion-paper]. CVPR 2022.
 ([models][huggingface-models] & [demo][huggingface-demo])
 
+[2] Karras, Tero, et al. [*Elucidating the Design Space of Diffusion-Based Generative Models*][sampler-schedule-paper]. arXiv:2206.00364 2022.
+
 [stable-diffusion-paper]: <https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html>
+[sampler-schedule-paper]: <https://arxiv.org/abs/2206.00364>
 
 [huggingface-blogpost]: <https://huggingface.co/blog/stable_diffusion>
 [huggingface-models]: <https://huggingface.co/CompVis/stable-diffusion>
