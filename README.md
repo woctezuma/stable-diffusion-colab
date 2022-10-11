@@ -53,7 +53,7 @@ Moreover, as for the DALL·E model, you are asked to abide to the following stat
 [1] Rombach, Robin, et al. [*High-resolution image synthesis with latent diffusion models*][stable-diffusion-paper]. CVPR 2022.
 ([models][huggingface-models] & [demo][huggingface-demo])
 
-[2] Karras, Tero, et al. [*Elucidating the Design Space of Diffusion-Based Generative Models*][sampler-schedule-paper]. arXiv:2206.00364 2022.
+[2] Karras, Tero, et al. [*Elucidating the Design Space of Diffusion-Based Generative Models*][sampler-schedule-paper]. NeurIPS 2022. ([code][edm-implementation])
 
 [stable-diffusion-paper]: <https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html>
 [sampler-schedule-paper]: <https://arxiv.org/abs/2206.00364>
@@ -63,6 +63,7 @@ Moreover, as for the DALL·E model, you are asked to abide to the following stat
 [huggingface-latest-weights]: <https://huggingface.co/CompVis/stable-diffusion-v1-4>
 [huggingface-demo]: <https://huggingface.co/spaces/stabilityai/stable-diffusion>
 [dreamstudio-demo]: <http://beta.dreamstudio.ai>
+[edm-implementation]: <https://github.com/NVlabs/edm>
 
 [colab-notebook-stable-diffusion]: <https://colab.research.google.com/github/woctezuma/stable-diffusion-colab/blob/main/stable_diffusion.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
