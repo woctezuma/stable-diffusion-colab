@@ -60,7 +60,7 @@ Moreover, as for the DALL·E model, you are asked to abide to the following stat
 
 [huggingface-blogpost]: <https://huggingface.co/blog/stable_diffusion>
 [huggingface-models]: <https://huggingface.co/CompVis/stable-diffusion>
-[huggingface-latest-weights]: <https://huggingface.co/CompVis/stable-diffusion-v1-4>
+[huggingface-latest-weights]: <https://huggingface.co/runwayml/stable-diffusion-v1-5>
 [huggingface-demo]: <https://huggingface.co/spaces/stabilityai/stable-diffusion>
 [dreamstudio-demo]: <http://beta.dreamstudio.ai>
 [edm-implementation]: <https://github.com/NVlabs/edm>
