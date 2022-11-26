@@ -30,6 +30,8 @@ Typically, parameters are set with the following ranges in mind:
 Different results obtained with the text prompt: "a photo of an astronaut riding a horse on mars".
 </sub>
 
+---
+
 <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_3.jpg" width="256"> <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_1.jpg" width="256"> <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_2.jpg" width="256">
 
 <sub>
