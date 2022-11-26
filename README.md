@@ -7,13 +7,6 @@ The goal of this repository is to provide a Colab notebook to run the text-to-im
 -   Run [`stable_diffusion.ipynb`][colab-notebook-stable-diffusion].
 [![Open In Colab][colab-badge]][colab-notebook-stable-diffusion]
 
-## Safety Check
-
-To remove the safety check, switch `remove_safety` to `True`:
-```python
-remove_safety = True
-```
-
 ## Schedulers
 
 A scheduler [2] can be chosen among:
