@@ -18,9 +18,9 @@ A scheduler [2] can be chosen among:
 ## Parameters
 
 Typically, parameters are set with the following ranges in mind:
-- `num_images` (default: `1`), between `1` and `4`,
-- `guidance_scale` (default: `7.5`), between `0` and `20`,
-- `num_inference_steps` (default: `50`), between `10` and `150`.
+- `num_images` (default: `4`), between `1` and `4`,
+- `guidance_scale` (default: `9`), between `0` and `20`,
+- `num_inference_steps` (default: `25`), between `10` and `150`.
 
 # Results
 
