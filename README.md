@@ -30,18 +30,6 @@ Typically, parameters are set with the following ranges in mind:
 Different results obtained with the text prompt: "a photo of an astronaut riding a horse on mars".
 </sub>
 
-# Misuse and Malicious Use 
-
-To be able to run the notebook, a "HuggingFace🤗 Hub token" is mandatory.
-This token is personal!
-
-In order to obtain such token, you need to accept a "CreativeML OpenRAIL-M license", which explicitly states that:
-> You cannot use the model to deliberately produce nor share illegal or harmful outputs or content.
-
-Moreover, as for the DALL·E model, you are asked to abide to the following statement:
-> Do not create or disseminate images that create hostile or alienating environments for people.
-> This includes images that people would find disturbing, distressing, or offensive; or content that propagates stereotypes.
-
 # References
 
 [1] Rombach, Robin, et al. [*High-resolution image synthesis with latent diffusion models*][stable-diffusion-paper]. CVPR 2022.
