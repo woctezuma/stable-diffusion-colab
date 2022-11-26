@@ -10,8 +10,8 @@ The goal of this repository is to provide a Colab notebook to run the text-to-im
 ## Schedulers
 
 A scheduler [2] can be chosen among:
-- PNDM, which is the default scheduler in [🤗's D🧨iffusers][huggingface-blogpost] for Stable Diffusion,
-- DDIM,
+- PNDM, which is the default scheduler in [🤗's D🧨iffusers][huggingface-blogpost] for Stable Diffusion [at 512 resolution][huggingface-sd2-resolution-512],
+- DDIM, which is the default scheduler for Stable Diffusion [at 768 resolution][huggingface-sd2-resolution-768],
 - K-LMS, which is the scheduler suggested by [DreamStudio][dreamstudio-demo].
 - Euler, which is the scheduler used in [🤗's example][huggingface-sd2-examples] for Stable Diffusion 2.
 
@@ -43,6 +43,8 @@ Different results obtained with the text prompt: "a photo of an astronaut riding
 [huggingface-blogpost]: <https://huggingface.co/blog/stable_diffusion>
 [huggingface-models]: <https://huggingface.co/CompVis/stable-diffusion>
 [huggingface-latest-weights]: <https://huggingface.co/stabilityai/stable-diffusion-2>
+[huggingface-sd2-resolution-512]: <https://huggingface.co/stabilityai/stable-diffusion-2-base>
+[huggingface-sd2-resolution-768]: <https://huggingface.co/stabilityai/stable-diffusion-2>
 [huggingface-sd2-examples]: <https://huggingface.co/stabilityai/stable-diffusion-2#examples>
 [huggingface-demo]: <https://huggingface.co/spaces/stabilityai/stable-diffusion>
 [dreamstudio-demo]: <http://beta.dreamstudio.ai>
