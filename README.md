@@ -13,6 +13,7 @@ A scheduler [2] can be chosen among:
 - PNDM, which is the default scheduler in [🤗's D🧨iffusers][huggingface-blogpost] for Stable Diffusion,
 - DDIM,
 - K-LMS, which is the scheduler suggested by [DreamStudio][dreamstudio-demo].
+- Euler, which is the scheduler used in [🤗's example][huggingface-sd2-examples] for Stable Diffusion 2.
 
 ## Parameters
 
@@ -54,6 +55,7 @@ Moreover, as for the DALL·E model, you are asked to abide to the following stat
 [huggingface-blogpost]: <https://huggingface.co/blog/stable_diffusion>
 [huggingface-models]: <https://huggingface.co/CompVis/stable-diffusion>
 [huggingface-latest-weights]: <https://huggingface.co/stabilityai/stable-diffusion-2>
+[huggingface-sd2-examples]: <https://huggingface.co/stabilityai/stable-diffusion-2#examples>
 [huggingface-demo]: <https://huggingface.co/spaces/stabilityai/stable-diffusion>
 [dreamstudio-demo]: <http://beta.dreamstudio.ai>
 [edm-implementation]: <https://github.com/NVlabs/edm>
