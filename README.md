@@ -50,9 +50,9 @@ Different results obtained with the text prompt: "a pikachu fine dining with a v
 
 [huggingface-blogpost]: <https://huggingface.co/blog/stable_diffusion>
 [huggingface-models]: <https://huggingface.co/CompVis/stable-diffusion>
-[huggingface-latest-weights]: <https://huggingface.co/stabilityai/stable-diffusion-2>
-[huggingface-sd2-resolution-512]: <https://huggingface.co/stabilityai/stable-diffusion-2-base>
-[huggingface-sd2-resolution-768]: <https://huggingface.co/stabilityai/stable-diffusion-2>
+[huggingface-latest-weights]: <https://huggingface.co/stabilityai/stable-diffusion-2-1>
+[huggingface-sd2-resolution-512]: <https://huggingface.co/stabilityai/stable-diffusion-2-1-base>
+[huggingface-sd2-resolution-768]: <https://huggingface.co/stabilityai/stable-diffusion-2-1>
 [huggingface-sd2-examples]: <https://huggingface.co/stabilityai/stable-diffusion-2#examples>
 [huggingface-demo]: <https://huggingface.co/spaces/stabilityai/stable-diffusion>
 [dreamstudio-demo]: <http://beta.dreamstudio.ai>
