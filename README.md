@@ -14,6 +14,7 @@ A scheduler [2] can be chosen among:
 - DDIM, which is the default scheduler for Stable Diffusion [at 768 resolution][huggingface-sd2-resolution-768],
 - K-LMS, which is the scheduler suggested by [DreamStudio][dreamstudio-demo].
 - Euler, which is the scheduler used in [🤗's example][huggingface-sd2-examples] for Stable Diffusion 2.
+- DPM, which is the scheduler used in [🤗's example][huggingface-sd21-examples] for Stable Diffusion 2.1.
 
 ## Parameters
 
@@ -54,6 +55,7 @@ Different results obtained with the text prompt: "a pikachu fine dining with a v
 [huggingface-sd2-resolution-512]: <https://huggingface.co/stabilityai/stable-diffusion-2-1-base>
 [huggingface-sd2-resolution-768]: <https://huggingface.co/stabilityai/stable-diffusion-2-1>
 [huggingface-sd2-examples]: <https://huggingface.co/stabilityai/stable-diffusion-2#examples>
+[huggingface-sd21-examples]: <https://huggingface.co/stabilityai/stable-diffusion-2-1#examples>
 [huggingface-demo]: <https://huggingface.co/spaces/stabilityai/stable-diffusion>
 [dreamstudio-demo]: <http://beta.dreamstudio.ai>
 [edm-implementation]: <https://github.com/NVlabs/edm>
