@@ -33,10 +33,26 @@ Different results obtained with the text prompt: "a photo of an astronaut riding
 
 ---
 
+<img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_3b.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_1b.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_2b.jpg" width="256">
+
+<sub>
+Different results obtained with the text prompt: "a photo of an astronaut riding a horse on Mars" using Dreamlike Photoreal 2.0.
+</sub>
+
+---
+
 <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_3.jpg" width="256"> <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_1.jpg" width="256"> <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_2.jpg" width="256">
 
 <sub>
 Different results obtained with the text prompt: "a photo of Pikachu fine dining with a view to the Eiffel Tower".
+</sub>
+
+---
+
+<img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_3b.jpg" width="256"> <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_1b.jpg" width="256"> <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_2b.jpg" width="256">
+
+<sub>
+Different results obtained with the text prompt: "a photo of Pikachu fine dining with a view to the Eiffel Tower" using Dreamlike Photoreal 2.0.
 </sub>
 
 # References
