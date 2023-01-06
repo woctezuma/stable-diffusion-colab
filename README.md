@@ -28,7 +28,7 @@ Typically, parameters are set with the following ranges in mind:
 <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_3.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_1.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_2.jpg" width="256">
 
 <sub>
-Different results obtained with the text prompt: "a photo of an astronaut riding a horse on mars".
+Different results obtained with the text prompt: "a photo of an astronaut riding a horse on Mars".
 </sub>
 
 ---
@@ -36,7 +36,7 @@ Different results obtained with the text prompt: "a photo of an astronaut riding
 <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_3.jpg" width="256"> <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_1.jpg" width="256"> <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_2.jpg" width="256">
 
 <sub>
-Different results obtained with the text prompt: "a pikachu fine dining with a view to the Eiffel Tower".
+Different results obtained with the text prompt: "a photo of Pikachu fine dining with a view to the Eiffel Tower".
 </sub>
 
 # References
