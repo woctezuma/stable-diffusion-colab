@@ -11,7 +11,7 @@ The goal of this repository is to provide a Colab notebook to run the text-to-im
 
 A scheduler [2] can be chosen among:
 - PNDM, which is the default scheduler in [🤗's D🧨iffusers][huggingface-blogpost] for Stable Diffusion [at 512 resolution][huggingface-sd2-resolution-512],
-- DDIM, which is the default scheduler for Stable Diffusion [at 768 resolution][huggingface-sd2-resolution-768],
+- DDIM, which is the default scheduler in 🤗 for Stable Diffusion [at 768 resolution][huggingface-sd2-resolution-768],
 - K-LMS, which is the scheduler suggested by [DreamStudio][dreamstudio-demo].
 - Euler, which is the scheduler used in [🤗's example][huggingface-sd2-examples] for Stable Diffusion 2.
 - DPM, which is the scheduler used in [🤗's example][huggingface-sd21-examples] for Stable Diffusion 2.1.
