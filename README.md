@@ -16,6 +16,13 @@ A scheduler [2] can be chosen among:
 - Euler, which is the scheduler used in [🤗's example][huggingface-sd2-examples] for Stable Diffusion 2.
 - DPM, which is the scheduler used in [🤗's example][huggingface-sd21-examples] for Stable Diffusion 2.1.
 
+## Safety Check
+
+To remove the safety check, switch `remove_safety` to `True`:
+```python
+remove_safety = True
+```
+
 ## Parameters
 
 Typically, parameters are set with the following ranges in mind:
