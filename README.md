@@ -1,41 +1,18 @@
-# Stable-Diffusion-Colab
+# Stable Diffusion XL - Colab
 
-The goal of this repository is to provide a Colab notebook to run the text-to-image ["Stable Diffusion"][huggingface-latest-weights] model [1].
+The goal of this repository is to provide a Colab notebook to run the text-to-image ["Stable Diffusion XL"][huggingface-latest-weights] model [1].
 
 # Usage
 
 -   Run [`stable_diffusion.ipynb`][colab-notebook-stable-diffusion].
 [![Open In Colab][colab-badge]][colab-notebook-stable-diffusion]
 
-## Schedulers
-
-A scheduler [2] can be chosen among:
-- PNDM, which is the default scheduler in [🤗's D🧨iffusers][huggingface-blogpost] for Stable Diffusion [at 512 resolution][huggingface-sd2-resolution-512],
-- DDIM, which is the default scheduler in 🤗 for Stable Diffusion [at 768 resolution][huggingface-sd2-resolution-768],
-- K-LMS, which is the scheduler suggested by [DreamStudio][dreamstudio-demo].
-- Euler, which is the scheduler used in [🤗's example][huggingface-sd2-examples] for Stable Diffusion 2.
-- DPM, which is the scheduler used in [🤗's example][huggingface-sd21-examples] for Stable Diffusion 2.1.
-
-## Safety Check
-
-To remove the safety check, switch `remove_safety` to `True`:
-```python
-remove_safety = True
-```
-
-## Parameters
-
-Typically, parameters are set with the following ranges in mind:
-- `num_images` (default: `4`), between `1` and `4`,
-- `guidance_scale` (default: `9`), between `0` and `20`,
-- `num_inference_steps` (default: `25`), between `10` and `150`.
-
 # Results
 
 <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_3.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_1.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_2.jpg" width="256">
 
 <sub>
-Different results obtained with the text prompt: "a photo of an astronaut riding a horse on Mars".
+Different results obtained with the text prompt: "a photo of an astronaut riding a horse on Mars" using Stable Diffusion (not XL).
 </sub>
 
 ---
@@ -48,10 +25,18 @@ Different results obtained with the text prompt: "a photo of an astronaut riding
 
 ---
 
+<img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_3xl.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_1xl.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_2xl.jpg" width="256">
+
+<sub>
+Different results obtained with the text prompt: "a photo of an astronaut riding a horse on Mars" **using Stable Diffusion XL**.
+</sub>
+
+---
+
 <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_3.jpg" width="256"> <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_1.jpg" width="256"> <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_2.jpg" width="256">
 
 <sub>
-Different results obtained with the text prompt: "a photo of Pikachu fine dining with a view to the Eiffel Tower".
+Different results obtained with the text prompt: "a photo of Pikachu fine dining with a view to the Eiffel Tower" using Stable Diffusion (not XL).
 </sub>
 
 ---
@@ -62,6 +47,13 @@ Different results obtained with the text prompt: "a photo of Pikachu fine dining
 Different results obtained with the text prompt: "a photo of Pikachu fine dining with a view to the Eiffel Tower" using Dreamlike Photoreal 2.0.
 </sub>
 
+---
+
+<img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_3xl.jpg" width="256"> <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_1xl.jpg" width="256"> <img alt="Pikachu in Paris" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/pikachu_2xl.jpg" width="256">
+
+<sub>
+Different results obtained with the text prompt: "a photo of Pikachu fine dining with a view to the Eiffel Tower" **using Stable Diffusion XL**.
+</sub>
 # References
 
 [1] Rombach, Robin, et al. [*High-resolution image synthesis with latent diffusion models*][stable-diffusion-paper]. CVPR 2022.
@@ -74,7 +66,7 @@ Different results obtained with the text prompt: "a photo of Pikachu fine dining
 
 [huggingface-blogpost]: <https://huggingface.co/blog/stable_diffusion>
 [huggingface-models]: <https://huggingface.co/CompVis/stable-diffusion>
-[huggingface-latest-weights]: <https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0>
+[huggingface-latest-weights]: <https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0>
 [huggingface-sd2-resolution-512]: <https://huggingface.co/stabilityai/stable-diffusion-2-1-base>
 [huggingface-sd2-resolution-768]: <https://huggingface.co/stabilityai/stable-diffusion-2-1>
 [huggingface-sd2-examples]: <https://huggingface.co/stabilityai/stable-diffusion-2#examples>
