@@ -2,12 +2,12 @@
 
 The goal of this repository is to provide a Colab notebook to run the text-to-image ["Stable Diffusion XL"][huggingface-latest-weights] model [1].
 
-# Usage
+## Usage
 
 -   Run [`stable_diffusion.ipynb`][colab-notebook-stable-diffusion].
 [![Open In Colab][colab-badge]][colab-notebook-stable-diffusion]
 
-# Results
+## Results
 
 <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_3.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_1.jpg" width="256"> <img alt="Astronaut on Mars" src="https://github.com/woctezuma/stable-diffusion-colab/wiki/img/astronaut_2.jpg" width="256">
 
@@ -55,7 +55,7 @@ Different results obtained with the text prompt: "a photo of Pikachu fine dining
 Different results obtained with the text prompt: "a photo of Pikachu fine dining with a view to the Eiffel Tower" using Stable Diffusion XL.
 </sub>
 
-# References
+## References
 
 [1] Rombach, Robin, et al. [*High-resolution image synthesis with latent diffusion models*][stable-diffusion-paper]. CVPR 2022.
 ([models][huggingface-models] & [demo][huggingface-demo])
