@@ -54,6 +54,7 @@ Different results obtained with the text prompt: "a photo of Pikachu fine dining
 <sub>
 Different results obtained with the text prompt: "a photo of Pikachu fine dining with a view to the Eiffel Tower" using Stable Diffusion XL.
 </sub>
+
 # References
 
 [1] Rombach, Robin, et al. [*High-resolution image synthesis with latent diffusion models*][stable-diffusion-paper]. CVPR 2022.
