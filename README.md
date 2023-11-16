@@ -30,7 +30,7 @@ Different results obtained with the text prompt: "a photo of Pikachu fine dining
 
 [2] Karras, Tero, et al. [*Elucidating the Design Space of Diffusion-Based Generative Models*][sampler-schedule-paper]. NeurIPS 2022. ([code][edm-implementation])
 
-[3] Luo, Simian, et al. [*Latent Consistency Models: Synthesizing High-Res Images with Few-Step Inference.*][lcm-paper] arXiv 2023. ([code][lcm-github])
+[3] Luo, Simian, et al. [*Latent Consistency Models: Synthesizing HR Images with Few-Step Inference.*][lcm-paper] arXiv 2023. ([code][lcm-github])
 
 [4] Luo, Simian, et al. [*LCM-LoRA: A Universal Stable-Diffusion Acceleration Module.*][lcm-lora-paper] arXiv 2023.
 
