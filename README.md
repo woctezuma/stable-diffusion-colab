@@ -30,10 +30,17 @@ Different results obtained with the text prompt: "a photo of Pikachu fine dining
 
 [2] Karras, Tero, et al. [*Elucidating the Design Space of Diffusion-Based Generative Models*][sampler-schedule-paper]. NeurIPS 2022. ([code][edm-implementation])
 
+[3] Luo, Simian, et al. [*Latent consistency models: Synthesizing high-resolution images with few-step inference.*][lcm-paper] arXiv 2023. ([code][lcm-github])
+
+[4] Luo, Simian, et al. [*LCM-LoRA: A Universal Stable-Diffusion Acceleration Module.*][lcm-lora-paper] arXiv 2023.
+
 [stable-diffusion-paper]: <https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html>
 [sampler-schedule-paper]: <https://arxiv.org/abs/2206.00364>
+[lcm-paper]: <https://arxiv.org/abs/2310.04378>
+[lcm-lora-paper]: <https://arxiv.org/abs/2311.05556>
 
 [huggingface-blogpost]: <https://huggingface.co/blog/stable_diffusion>
+[huggingface-lcm-blogpost]: <https://huggingface.co/blog/lcm_lora>
 [huggingface-models]: <https://huggingface.co/CompVis/stable-diffusion>
 [huggingface-latest-weights]: <https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0>
 [huggingface-sd2-resolution-512]: <https://huggingface.co/stabilityai/stable-diffusion-2-1-base>
@@ -43,6 +50,7 @@ Different results obtained with the text prompt: "a photo of Pikachu fine dining
 [huggingface-demo]: <https://huggingface.co/spaces/stabilityai/stable-diffusion>
 [dreamstudio-demo]: <http://beta.dreamstudio.ai>
 [edm-implementation]: <https://github.com/NVlabs/edm>
+[lcm-github]: <https://github.com/luosiallen/latent-consistency-model>
 
 [colab-notebook-stable-diffusion]: <https://colab.research.google.com/github/woctezuma/stable-diffusion-colab/blob/main/stable_diffusion.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
