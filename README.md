@@ -1,6 +1,6 @@
 # Stable Diffusion XL Turbo - Colab
 
-The goal of this repository is to provide a Colab notebook to run the text-to-image ["Stable Diffusion XL Turbo"][huggingface-latest-weights] model [1].
+The goal of this repository is to provide a Colab notebook to run the text-to-image ["Stable Diffusion XL Turbo"][huggingface-latest-weights] model.
 
 ## Usage
 
