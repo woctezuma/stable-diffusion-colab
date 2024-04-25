@@ -1,6 +1,6 @@
-# Stable Diffusion Cascade - Colab
+# Stable Diffusion Hyper-SDXL - Colab
 
-The goal of this repository is to provide a Colab notebook to run the text-to-image [Stable Diffusion Cascade][huggingface-latest-weights] model.
+The goal of this repository is to provide a Colab notebook to run the text-to-image [Stable Diffusion Hyper-SDXL][huggingface-latest-weights] model.
 
 ## Usage
 
@@ -42,7 +42,7 @@ Different results obtained with the text prompt: "a photo of Pikachu fine dining
 [huggingface-blogpost]: <https://huggingface.co/blog/stable_diffusion>
 [huggingface-lcm-blogpost]: <https://huggingface.co/blog/lcm_lora>
 [huggingface-models]: <https://huggingface.co/CompVis/stable-diffusion>
-[huggingface-latest-weights]: <https://huggingface.co/stabilityai/stable-cascade>
+[huggingface-latest-weights]: <https://huggingface.co/ByteDance/Hyper-SD>
 [huggingface-sd2-resolution-512]: <https://huggingface.co/stabilityai/stable-diffusion-2-1-base>
 [huggingface-sd2-resolution-768]: <https://huggingface.co/stabilityai/stable-diffusion-2-1>
 [huggingface-sd2-examples]: <https://huggingface.co/stabilityai/stable-diffusion-2#examples>
