@@ -1,6 +1,6 @@
 # Stable Diffusion SANA-Sprint - Colab
 
-The goal of this repository is to provide a Colab notebook to run the text-to-image [Stable Diffusion SANA-Sprint][huggingface-latest-weights] model.
+The goal of this repository is to provide a Colab notebook to run the text-to-image [SANA-Sprint][huggingface-latest-weights] model.
 
 ## Usage
 
